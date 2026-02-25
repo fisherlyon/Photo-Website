@@ -1,0 +1,53 @@
+/* base-footer.css */
+
+footer {
+    align-items: center;
+    background-color: rgb(40, 40, 40);
+    display: flex; 
+    justify-content: space-between; 
+    padding: 30px 50px;
+}
+
+footer div {
+    color: rgb(240, 240, 240);
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+footer .links {
+    align-items: center; 
+    display: flex;
+}
+
+footer .links a {
+    display: inline-block;
+    text-indent: -99999px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: transform 0.2s ease;
+}
+
+footer .links a:hover {
+    transform: scale(1.1);
+}
+
+footer .insta {
+    background-image: url("icon-images/insta-ico.png");
+    width: 65px;
+    height: 65px;
+}
+
+footer .github {
+    background-image: url("icon-images/github-ico.png");
+    padding-left: 19px;
+    width: 43px;
+    height: 43px;
+}
+
+footer .youtube {
+    background-image: url("icon-images/youtube-ico.png");
+    width: 80px;
+    height: 80px;
+}

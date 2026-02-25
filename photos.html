@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Photos</title>
+    <link rel="stylesheet" href="base-header.css">
+    <link rel="stylesheet" href="photos.css"> 
+    <link rel="stylesheet" href="base-footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-name">
+            <h1><a href="index.html">F. Lyon</a></h1>
+        </div>
+
+        <div class="header-features">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="photos.html" class="active">Photos</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="content-header">
+            <div class="content-title">
+                <h1>Photos</h1>
+            </div>
+            
+            <div class="gallery-features">
+                <ul>
+                    <li><button class="gallery-btn active" data-filter="all">All</button></li>
+                    <li><button class="gallery-btn" data-filter="bw">B&W</button></li>
+                    <li><button class="gallery-btn" data-filter="color">Color</button></li>
+                    <li><button class="gallery-btn" data-filter="mx">MX</button></li>
+                    <li><button class="gallery-btn" data-filter="street">Street</button></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <img src="images/B&W/b&w-1.jpg" alt="b&w-1.jpg" data-category="bw">
+            <img src="images/B&W/b&w-2.jpg" alt="b&w-2.jpg" data-category="bw">
+            <img src="images/B&W/b&w-3.jpg" alt="b&w-3.jpg" data-category="bw">
+            <img src="images/B&W/b&w-4.jpg" alt="b&w-4.jpg" data-category="bw">
+
+            <img src="images/Color/color-1.jpg" alt="color-1.jpg" data-category="color">
+            <img src="images/Color/color-2.jpg" alt="color-2.jpg" data-category="color">
+            <img src="images/Color/color-3.jpg" alt="color-3.jpg" data-category="color">
+            <img src="images/Color/color-4.jpg" alt="color-4.jpg" data-category="color">
+            <img src="images/Color/color-5.jpg" alt="color-5.jpg" data-category="color">
+            <img src="images/Color/color-6.jpg" alt="color-6.jpg" data-category="color">
+            <img src="images/Color/color-7.jpg" alt="color-7.jpg" data-category="color">
+            <img src="images/Color/color-8.jpg" alt="color-8.jpg" data-category="color">
+            <img src="images/Color/color-9.jpg" alt="color-9.jpg" data-category="color">
+            <img src="images/Color/color-10.jpg" alt="color-10.jpg" data-category="color">
+            <img src="images/Color/color-11.jpg" alt="color-11.jpg" data-category="color">
+            <img src="images/Color/color-12.jpg" alt="color-12.jpg" data-category="color">
+            <img src="images/Color/color-13.jpg" alt="color-13.jpg" data-category="color">
+            <img src="images/Color/color-14.jpg" alt="color-14.jpg" data-category="color">
+            <img src="images/Color/color-15.jpg" alt="color-15.jpg" data-category="color">
+            <img src="images/Color/color-16.jpeg" alt="color-16.jpeg" data-category="color">
+
+            <img src="images/MX/mx-1.jpg" alt="mx-1.jpg" data-category="mx">
+            <img src="images/MX/mx-2.jpg" alt="mx-2.jpg" data-category="mx">
+            <img src="images/MX/mx-3.jpg" alt="mx-3.jpg" data-category="mx">
+
+            <img src="images/Street/street-1.jpg" alt="street-1.jpg" data-category="street">
+            <img src="images/Street/street-2.jpg" alt="street-2.jpg" data-category="street">
+        </section>
+    </main>
+
+    <div id="viewer" class="hidden">
+        <img id="viewer-image">
+    </div>
+
+    <footer>
+        <div class="copyright">
+            <p>©2026 F. Lyon</p>
+        </div>
+
+        <div class="links">
+            <a href="https://www.instagram.com/fisher_takes_fotos?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="insta" target="_blank">Instagram</a>
+            <a href="https://www.youtube.com/@fisherlyonyt" class="youtube" target="_blank">YouTube</a>
+            <a href="https://github.com/fisherlyon" class="github" target="_blank">GitHub</a>
+        </div>
+    </footer>
+
+    <script type="module" src="photos.js"></script>
+</body>
+</html>

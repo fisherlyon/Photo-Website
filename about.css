@@ -1,0 +1,66 @@
+/* about.css */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.content-header {
+    align-items: center;
+    color: rgb(40, 40, 40);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserat', sans-serif;
+    gap: 3rem;
+    padding: 60px 60px 0px 60px;
+    text-transform: uppercase;
+}
+
+.content-title h1 {
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 15px;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.images img {
+    height: auto;
+    padding: 50px 0px 100px 100px;
+    width: 400px;
+}
+
+.text {
+    font-family: 'Montserat', sans-serif;
+    font-size: 18px;
+    padding: 50px 100px 100px;
+    line-height: 1.2;
+}
+
+.text p {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 1200px) {
+    .content {
+        flex-direction: column;
+        text-align: center; /* optional but looks nicer */
+    }
+
+    .images img {
+        padding: 50px;
+    }
+}

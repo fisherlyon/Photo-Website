@@ -1,0 +1,92 @@
+/* main.css */
+
+* {
+    margin: 0;
+}
+
+/* BODY */
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserat', sans-serif;
+    min-height: 100vh;
+}
+
+/* HEADER */
+
+header {
+    background-color: rgb(40, 40, 40);
+    padding: 60px;
+    text-align: center;
+}
+
+header h1 a {
+    color: rgb(240, 240, 240);
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+/* .site-nav */
+
+.site-nav {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex: 1;
+}
+
+nav {
+    display: flex;
+    flex: 1;
+}
+
+nav ul {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: flex;
+    flex: 1;
+}
+
+nav a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: rgb(40, 40, 40);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid rgb(40, 40, 40); /* always present */
+    transition: background-color 0.5s ease;
+}
+
+nav a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: rgb(40, 40, 40);
+    transition: width 0.1s ease;
+}
+
+nav a:hover::before {
+    width: 100%;   /* animates in from left to right */
+}
+
+nav a:hover {
+    background-color: rgb(210, 210, 210);
+}

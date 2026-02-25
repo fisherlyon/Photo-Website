@@ -1,0 +1,64 @@
+/* base-header.css */
+
+* {
+    margin: 0;
+}
+
+/* BODY */
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserat', sans-serif;
+    min-height: 100vh;
+}
+
+/* HEADER */
+
+header {
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.header-name a {
+    color: rgb(240, 240, 240);
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.header-features {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-features ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.header-features a {
+    color: rgb(240, 240, 240);
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: text-decoration 1s ease;
+}
+
+.header-features a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px
+}
+
+.header-features a.active {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px
+}
+

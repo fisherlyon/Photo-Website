@@ -1,0 +1,69 @@
+/* contact.css */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.content-header {
+    align-items: center;
+    color: rgb(40, 40, 40);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserat', sans-serif;
+    gap: 3rem;
+    padding: 60px 60px 30px 60px;
+    text-transform: uppercase;
+}
+
+.content-title h1 {
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 40px 60px 80px 60px;
+}
+
+.contact-wrapper {
+    text-align: center;
+    max-width: 600px;
+}
+
+.contact-intro {
+    font-size: 20px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact-btn {
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: rgb(40, 40, 40);
+    border: 1px solid rgb(40, 40, 40);
+    padding: 15px 30px;
+    transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+    background: rgb(40, 40, 40);
+    color: white;
+}
