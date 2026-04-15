@@ -1,0 +1,70 @@
+/* projects.css */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.content-header {
+    align-items: center;
+    color: rgb(40, 40, 40);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserat', sans-serif;
+    gap: 3rem;
+    padding: 60px;
+    text-transform: uppercase;
+}
+
+.content-title h1 {
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 15px;
+}
+
+.project-features {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.project-features ul {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.project-btn {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: inherit;
+    transition: text-decoration 1s ease;
+}
+
+.project-btn:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px
+}
+
+.project-btn.active {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px
+}

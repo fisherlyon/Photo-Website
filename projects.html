@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Contact</title>
+    <title>Photos</title>
     <link rel="stylesheet" href="base-header.css">
-    <link rel="stylesheet" href="contact.css"> 
+    <link rel="stylesheet" href="projects.css"> 
     <link rel="stylesheet" href="base-footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.png" type="image/png">
 </head>
 
@@ -19,10 +21,10 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="photos.html">Photos</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
                 <!-- <li><a href="blog.html">Blog</a></li> -->
                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </header>
@@ -30,29 +32,23 @@
     <main>
         <section class="content-header">
             <div class="content-title">
-                <h1>Contact</h1>
+                <h1>Projects</h1>
+            </div>
+            
+            <div class="project-features">
+                <ul>
+                    <li><button class="project-btn active" data-filter="all">All</button></li>
+                    <li><button class="project-btn" data-filter="full">full</button></li>
+                    <li><button class="project-btn" data-filter="mini">Mini</button></li>
+                </ul>
             </div>
         </section>
 
-        <section class="content">
-            <div class="contact-wrapper">
-                <p class="contact-intro">
-                    For collaborations, prints, or general inquiries:
-                </p>
-
-                <div class="contact-links">
-                    <a href="https://www.instagram.com/fisher_takes_fotos/" target="_blank" class="contact-btn">
-                        Message me on Instagram
-                    </a>
-
-                    <a href="mailto:fisherlyon.photo@gmail.com" class="contact-btn">
-                        Send me an Email
-                    </a>
-                </div>
-            </div>
-        </section>
     </main>
-    
+
+    <div id="viewer" class="hidden">
+        <img id="viewer-image">
+    </div>
 
     <footer>
         <div class="copyright">
@@ -65,5 +61,7 @@
             <a href="https://github.com/fisherlyon" class="github" target="_blank">GitHub</a>
         </div>
     </footer>
+
+    <script type="module" src="photos.js"></script>
 </body>
 </html>
