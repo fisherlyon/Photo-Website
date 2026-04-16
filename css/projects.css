@@ -68,3 +68,28 @@ main {
     text-decoration-thickness: 2px;
     text-underline-offset: 4px
 }
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 0px 60px 60px 60px;
+}
+
+.project-gallery img {
+    aspect-ratio: 1 / 1;
+    background-size: cover;
+    background-position: center;
+    border: 8pt solid white;
+    box-sizing: border-box;
+    box-shadow: gray 0 0 5px;
+    cursor: pointer;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+    width: 100%;
+}
+
+.project-gallery img:hover {
+    transform: scale(1.02);
+}
+

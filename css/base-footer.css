@@ -34,20 +34,20 @@ footer .links a:hover {
 }
 
 footer .insta {
-    background-image: url("icon-images/insta-ico.png");
+    background-image: url("../icon-images/insta-ico.png");
     width: 65px;
     height: 65px;
 }
 
 footer .github {
-    background-image: url("icon-images/github-ico.png");
+    background-image: url("../icon-images/github-ico.png");
     padding-left: 19px;
     width: 43px;
     height: 43px;
 }
 
 footer .youtube {
-    background-image: url("icon-images/youtube-ico.png");
+    background-image: url("../icon-images/youtube-ico.png");
     width: 80px;
     height: 80px;
 }
