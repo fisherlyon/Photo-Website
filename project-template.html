@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Photos</title>
+    <link rel="stylesheet" href="css/base-header.css">
+    <link rel="stylesheet" href="css/project-template.css"> 
+    <link rel="stylesheet" href="css/base-footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+
+<body>
+    <header>
+        <div class="header-name">
+            <h1><a href="index.html">fisherlyon</a></h1>
+        </div>
+
+        <div class="header-features">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <!-- <li><a href="blog.html">Blog</a></li> -->
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h1 id="title"></h1>
+        <p id="description"></p>
+
+        <div id="gallery"></div>
+    </main>
+
+    <div id="viewer" class="hidden">
+        <button id="prev">←</button>
+        <img id="viewer-image">
+        <button id="next">→</button>
+    </div>
+
+    <script src="js/project.js"></script>
+
+    <footer>
+        <div class="copyright">
+            <p>©2026 fisherlyon</p>
+        </div>
+
+        <div class="links">
+            <a href="https://www.instagram.com/fisher_takes_fotos?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="insta" target="_blank">Instagram</a>
+            <a href="https://www.youtube.com/@fisherlyonyt" class="youtube" target="_blank">YouTube</a>
+            <a href="https://github.com/fisherlyon" class="github" target="_blank">GitHub</a>
+        </div>
+    </footer>
+</body>
+</html>

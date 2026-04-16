@@ -1,0 +1,44 @@
+[
+    {
+        "id": "light-stitched-together",
+        "title": "Light, Stitched Together",
+        "description": "Though each of the following images may appear to be normal, they are not. I created this series of images with only one, single candle. Therefore, an image was captured for each candle that you see in each of the provided final images. I left my camera in the same place, took a series of images with the candle being in different locations, and then in post, I composited the images together using Photoshop.\n\nSome of my inspiration comes from Hiroshi Sugimoto, in that his images of the theaters don’t immediately appear to be any different from a quick snapshot of a theater with the screen overexposed. It’s not until after his process is revealed, is it where the meaning comes to fruition.\n\nFor Sugimoto's theater images, the meaning of the work emerges not from what is depicted, but from how the images were created. Through long-exposure photography, Sugimoto transforms a full-length film into a single, static image of a glowing screen that records the passage of time. The film is effectively erased and compressed into this white glow, which illuminates the theater and replaces the moving image with a trace of accumulated light.\n\nFor my candle images, the meaning too doesn’t emerge from what is being depicted, but instead from how the images were created. Through digital composition, I merge a series of images together to create a scene that never truly existed in the real world. Though the light illuminates its surroundings and correctly displays what existed in that space, the space itself cannot be fully seen without the composition of the series of images. Each instance of light represents a different moment in time, yet they are presented simultaneously, collapsing multiple moments into a single frame. In this way, the image constructs an artificial sense of presence, where one candle appears as many, and time is reorganized into a unified, but impossible, instant. The meaning, thus, lies in the medium’s ability to manipulate time, space, and light, showing that photography can exist not just as a simple record of reality, but as a process capable of constructing it.",
+        "folder": "images/projects/light-stitched-together/",
+        "count": 8
+    },
+    {
+        "id": "vintage-eyes",
+        "title": "Vintage Eyes",
+        "description": "I own several vintage film cameras. The images you see before you were captured with a digital camera through the viewfinder of one of those vintage film cameras. I tried to pick cameras from my collection that had different style viewfinders to give each image a different visual aesthetic.",
+        "folder": "images/projects/vintage-eyes/",
+        "count": 8
+    },
+    {
+        "id": "blossoms-and-bokeh",
+        "title": "Blossoms & Bokeh",
+        "description": "...",
+        "folder": "images/projects/blossoms-and-bokeh/",
+        "count": 10
+    },
+    {
+        "id": "just-another-photo-walk",
+        "title": "Just Another Photo Walk",
+        "description": "...",
+        "folder": "images/projects/just-another-photo-walk/",
+        "count": 11
+    },
+    {
+        "id": "doubles-in-the-delta",
+        "title": "Doubles in the Delta",
+        "description": "...",
+        "folder": "images/projects/doubles-in-the-delta/",
+        "count": 14
+    },
+    {
+        "id": "ballpark-blues",
+        "title": "Ballpark Blues",
+        "description": "...",
+        "folder": "images/projects/ballpark-blues/",
+        "count": 21
+    }
+]

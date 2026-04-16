@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Photos</title>
+    <title>Projects</title>
     <link rel="stylesheet" href="css/base-header.css">
     <link rel="stylesheet" href="css/projects.css"> 
     <link rel="stylesheet" href="css/base-footer.css">
@@ -45,19 +45,15 @@
         </section>
 
         <section class="project-gallery">
-            <img src="images/projects/light-stitched-together/20260411-fisherlyon-light-stitched-together-1.jpg" alt="light, stitched together cover photo" type="mini" project-label="light-stitched-together">
-            <img src="images/projects/vintage-eyes/20260317-fisherlyon-vintage-eyes-5.jpg" alt="vintage eyes cover photo" type="mini" project-label="vintage-eyes">
-            <img src="images/projects/blossoms-and-bokeh/20260214-fisherlyon-blossoms-and-bokeh-1.jpg" alt="blossoms and bokeh cover photo" type="mini" project-label="blossoms-and-bokeh">
-            <img src="images/projects/just-another-photo-walk/20260208-fisherlyon-just-another-photo-walk-9.jpg" alt="just another photo walk cover photo" type="mini" project-label="just-another-photo-walk">
-            <img src="images/projects/doubles-in-the-delta/20251129-fisherlyon-doubles-in-the-delta-8.jpg" alt="doubles in the delta cover photo" type="mini" project-label="doubles-in-the-delta">
-            <img src="images/projects/ballpark-blues/20251105-fisherlyon-ballpark-blues-12.jpg" alt="ballpark blues cover photo" type="mini" project-label="ballpark-blues">
+            <a href="project-template.html?id=light-stitched-together"><img src="images/projects/light-stitched-together/1.jpg" alt="light, stitched together cover photo" data-category="mini"></a>
+            <a href="project-template.html?id=vintage-eyes"><img src="images/projects/vintage-eyes/5.jpg" alt="vintage eyes cover photo" data-category="mini"></a>
+            <a href="project-template.html?id=blossoms-and-bokeh"><img src="images/projects/blossoms-and-bokeh/1.jpg" alt="blossoms and bokeh cover photo" data-category="mini"></a>
+            <a href="project-template.html?id=just-another-photo-walk"><img src="images/projects/just-another-photo-walk/9.jpg" alt="just another photo walk cover photo" data-category="mini"></a>
+            <a href="project-template.html?id=doubles-in-the-delta"><img src="images/projects/doubles-in-the-delta/8.jpg" alt="doubles in the delta cover photo" data-category="mini"></a>
+            <a href="project-template.html?id=ballpark-blues"><img src="images/projects/ballpark-blues/12.jpg" alt="ballpark blues cover photo" data-category="mini"></a>
         </section>
 
     </main>
-
-    <div id="viewer" class="hidden">
-        <img id="viewer-image">
-    </div>
 
     <footer>
         <div class="copyright">
@@ -70,5 +66,7 @@
             <a href="https://github.com/fisherlyon" class="github" target="_blank">GitHub</a>
         </div>
     </footer>
+
+    <script type="module" src="js/project-page.js"></script>
 </body>
 </html>
