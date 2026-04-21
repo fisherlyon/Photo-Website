@@ -85,11 +85,36 @@ main {
     box-shadow: gray 0 0 5px;
     cursor: pointer;
     object-fit: cover;
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, filter 0.5s ease;
     width: 100%;
 }
 
-.project-gallery img:hover {
+.project-item {
+    position: relative;
+    display: block;
+}
+
+.project-item:hover img {
+    filter: brightness(0.6);
     transform: scale(1.02);
 }
 
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none;
+}
+
+.project-item:hover .overlay-text {
+    opacity: 1;
+}
