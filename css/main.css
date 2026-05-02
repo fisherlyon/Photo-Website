@@ -15,7 +15,7 @@ body {
 
 .intro {
     align-items: center;
-    padding: 60px;
+    padding: 60px 60px 50px 60px;
     text-align: center;
 }
 
@@ -109,6 +109,7 @@ nav a:hover {
     align-items: flex-start;
     background-color: white;
     display: flex;
+    flex: 1;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
@@ -123,7 +124,7 @@ nav a:hover {
     box-shadow: gray 0 0 5px;
     display: flex;
     flex-direction: column;
-    height: 295px;
+    height: 350px;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -153,6 +154,7 @@ nav a:hover {
 .site-nav img {
     aspect-ratio: 1/1;
     display: block;
-    height: 295px;
+    height: 350px;
     object-fit: cover;
+    width: auto;
 }
