@@ -13,23 +13,33 @@ body {
     min-height: 100vh;
 }
 
-/* HEADER */
-
-header {
-    background-color: rgb(40, 40, 40);
+.intro {
+    align-items: center;
     padding: 60px;
     text-align: center;
 }
 
-header h1 a {
-    color: rgb(240, 240, 240);
-    font-size: 40px;
-    font-weight: 100;
-    letter-spacing: 3px;
-    text-decoration: none;
+.intro h1 {
+    font-size: 100px;
+    font-weight: 200;
+    letter-spacing: 6px;
+    padding-bottom: 30px;
 }
 
-/* .site-nav */
+.intro p {
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.intro p span {
+    text-decoration: underline;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 2px;
+}
+
+/* 
 
 .site-nav {
     background-color: rgb(240, 240, 240);
@@ -68,7 +78,7 @@ nav a {
     text-transform: uppercase;
     font-size: 20px;
     letter-spacing: 2px;
-    border-bottom: 1px solid rgb(40, 40, 40); /* always present */
+    border-bottom: 1px solid rgb(40, 40, 40); 
     transition: background-color 0.5s ease;
 }
 
@@ -84,9 +94,65 @@ nav a::before {
 }
 
 nav a:hover::before {
-    width: 100%;   /* animates in from left to right */
+    width: 100%; 
 }
 
 nav a:hover {
     background-color: rgb(210, 210, 210);
+} 
+
+*/
+
+/* Section 2 - Site Navigation */
+
+.site-nav {
+    align-items: flex-start;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 20px 60px 20px;
+}
+
+.site-nav figure {
+    align-items: center;
+    border: 8pt solid white;
+    box-sizing: border-box;
+    box-shadow: gray 0 0 5px;
+    display: flex;
+    flex-direction: column;
+    height: 295px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease;
+}
+
+.site-nav figure:hover {
+    transform: scale(1.025);
+}
+
+.site-nav figcaption {
+    background-color: rgba(255, 255, 255, 0.8);
+    bottom: 10px;
+    box-shadow: gray 0 0 5px;
+    font-size: 20px;
+    font-weight: 400;
+    left: 50%;
+    letter-spacing: 2px;
+    padding: 8px 4px 4px 4px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+    width: 200px;
+}
+
+.site-nav img {
+    aspect-ratio: 1/1;
+    display: block;
+    height: 295px;
+    object-fit: cover;
 }
