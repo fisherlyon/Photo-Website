@@ -1,21 +1,24 @@
 // project-page.js
 
 const buttons = document.querySelectorAll(".project-btn");
-const images = document.querySelectorAll(".project-gallery img");
+const items = document.querySelectorAll(".project-item");
 
 buttons.forEach(button => {
     button.addEventListener("click", () => {
 
+        // update active button
         buttons.forEach(btn => btn.classList.remove("active"));
         button.classList.add("active");
 
         const filter = button.dataset.filter;
 
-        images.forEach(img => {
-            if (filter === "all" || img.dataset.category === filter) {
-                img.style.display = "block";
+        items.forEach(item => {
+            const category = item.querySelector("img").dataset.category;
+
+            if (filter === "all" || category === filter) {
+                item.style.display = "";
             } else {
-                img.style.display = "none";
+                item.style.display = "none";
             }
         });
     });
