@@ -124,7 +124,7 @@ nav a:hover {
     box-shadow: gray 0 0 5px;
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: 325px;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -154,7 +154,7 @@ nav a:hover {
 .site-nav img {
     aspect-ratio: 1/1;
     display: block;
-    height: 350px;
+    height: 325px;
     object-fit: cover;
     width: auto;
 }
