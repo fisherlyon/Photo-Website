@@ -103,58 +103,69 @@ nav a:hover {
 
 */
 
-/* Section 2 - Site Navigation */
+/* Section 2 - Clickable Image Gallery */
 
-.site-nav {
-    align-items: flex-start;
-    background-color: white;
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    padding: 20px 20px 60px 20px;
+/* .clickable-image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 0px 60px 60px 60px;
+} */
+ 
+.clickable-image-gallery {
+    column-count: 2;
+    column-gap: 175px;
+    padding: 30px 175px 30px 175px;
 }
 
-.site-nav figure {
-    align-items: center;
+/* .clickable-image-gallery img {
+    aspect-ratio: 1 / 1;
+    background-size: cover;
+    background-position: center;
     border: 8pt solid white;
     box-sizing: border-box;
     box-shadow: gray 0 0 5px;
-    display: flex;
-    flex-direction: column;
-    height: 325px;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    transition: transform 0.2s ease;
-}
-
-.site-nav figure:hover {
-    transform: scale(1.025);
-}
-
-.site-nav figcaption {
-    background-color: rgba(255, 255, 255, 0.8);
-    bottom: 10px;
-    box-shadow: gray 0 0 5px;
-    font-size: 20px;
-    font-weight: 400;
-    left: 50%;
-    letter-spacing: 2px;
-    padding: 8px 4px 4px 4px;
-    position: absolute;
-    text-align: center;
-    text-transform: uppercase;
-    transform: translateX(-50%);
-    width: 200px;
-}
-
-.site-nav img {
-    aspect-ratio: 1/1;
-    display: block;
-    height: 325px;
+    cursor: pointer;
     object-fit: cover;
-    width: auto;
+    transition: transform 0.2s ease, filter 0.5s ease;
+    width: 100%;
+} */
+
+.clickable-image-gallery img {
+    break-inside: avoid;
+    cursor: pointer;
+    display: block;
+    transition: transform 0.2s ease, filter 0.5s ease;
+    width: 100%;
+}
+
+.gallery-item {
+    display: block;
+    margin-bottom: 175px;
+    position: relative;
+}
+
+.gallery-item:hover img {
+    filter: brightness(0.6);
+    transform: scale(1.02);
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none;
+}
+
+.gallery-item:hover .overlay-text {
+    opacity: 1;
 }

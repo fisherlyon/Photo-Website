@@ -1,0 +1,119 @@
+[
+    {
+        "id": "portraiture",
+        "title": "Portraiture",
+        "images": [
+            {
+                "file": "images/portraiture/1.jpg"
+            },
+            {
+                "file": "images/portraiture/2.jpg"
+            }
+        ]
+    },
+    {
+        "id": "bts",
+        "title": "Behind The Scenes",
+        "images": [
+            {
+                "file": "images/bts/1.jpg"
+            }
+        ]
+    },
+    {
+        "id": "sports",
+        "title": "Sports",
+        "images": [
+            {
+                "file": "images/sports/1.jpg"
+            }
+        ]
+    },
+    {
+        "id": "mx",
+        "title": "Multiple Exposure",
+        "images": [
+            {
+                "file": "images/mx/1.jpg"
+            },
+            {
+                "file": "images/mx/2.jpg"
+            },
+            {
+                "file": "images/mx/3.jpg"
+            },
+            {
+                "file": "images/mx/4.JPG"
+            }
+        ]
+    },
+    {
+        "id": "landscape",
+        "title": "Landscape",
+        "images": [
+            {
+                "file": "images/landscape/1.jpg"
+            },
+            {
+                "file": "images/landscape/2.JPG"
+            },
+            {
+                "file": "images/landscape/3.jpg"
+            },
+            {
+                "file": "images/landscape/4.jpg"
+            },
+            {
+                "file": "images/landscape/5.JPG"
+            }
+        ]
+    },
+    {
+        "id": "nature",
+        "title": "Nature",
+        "images": [
+            {
+                "file": "images/nature/1.jpg"
+            },
+            {
+                "file": "images/nature/2.jpg"
+            },
+            {
+                "file": "images/nature/3.jpg"
+            }
+        ]
+    },
+    {
+        "id": "street",
+        "title": "Street",
+        "images": [
+            {
+                "file": "images/street/1.jpg"
+            }
+        ]
+    },
+    {
+        "id": "fart",
+        "title": "Fine Art",
+        "images": [
+            {
+                "file": "images/fart/1.jpg"
+            }
+        ]
+    },
+    {
+        "id": "pictorialesque",
+        "title": "Pictorialesque",
+        "images": [
+            {
+                "file": "images/pictorialesque/1.jpg"
+            },
+            {
+                "file": "images/pictorialesque/2.jpg"
+            },
+            {
+                "file": "images/pictorialesque/3.jpg"
+            }
+        ]
+    }
+]
