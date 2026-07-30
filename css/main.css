@@ -111,12 +111,31 @@ nav a:hover {
     gap: 30px;
     padding: 0px 60px 60px 60px;
 } */
+
+
  
 .clickable-image-gallery {
     column-count: 2;
     column-gap: 175px;
     padding: 30px 175px 30px 175px;
 }
+
+@media (max-width: 1300px) {
+    .clickable-image-gallery {
+        column-count: 2;
+        column-gap: 85px;
+        padding: 30px 85px 30px 85px;
+    }
+}
+
+@media (max-width: 700px) {
+    .clickable-image-gallery {
+        column-count: 1;
+        column-gap: 125px;
+        padding: 30px 125px 30px 125px;
+    }
+}
+
 
 /* .clickable-image-gallery img {
     aspect-ratio: 1 / 1;
@@ -143,6 +162,22 @@ nav a:hover {
     display: block;
     margin-bottom: 175px;
     position: relative;
+}
+
+@media (max-width: 1300px) {
+    .gallery-item {
+        display: block;
+        margin-bottom: 85px;
+        position: relative;
+    }
+}
+
+@media (max-width: 700px) {
+    .gallery-item {
+        display: block;
+        margin-bottom: 125px;
+        position: relative;
+    }
 }
 
 .gallery-item:hover img {
