@@ -188,6 +188,9 @@
         "images": [
             {
                 "file": "images/street/1.jpg"
+            },
+            {
+                "file": "images/street/2.jpg"
             }
         ]
     },
