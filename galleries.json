@@ -17,6 +17,54 @@
         "images": [
             {
                 "file": "images/bts/1.jpg"
+            },
+            {
+                "file": "images/bts/2.jpg"
+            },
+            {
+                "file": "images/bts/3.jpg"
+            },
+            {
+                "file": "images/bts/4.jpg"
+            },
+            {
+                "file": "images/bts/5.jpg"
+            },
+            {
+                "file": "images/bts/6.jpg"
+            },
+            {
+                "file": "images/bts/7.jpg"
+            },
+            {
+                "file": "images/bts/8.jpg"
+            },
+            {
+                "file": "images/bts/9.jpg"
+            },
+            {
+                "file": "images/bts/10.jpg"
+            },
+            {
+                "file": "images/bts/11.jpg"
+            },
+            {
+                "file": "images/bts/12.jpg"
+            },
+            {
+                "file": "images/bts/13.jpg"
+            },
+            {
+                "file": "images/bts/14.jpg"
+            },
+            {
+                "file": "images/bts/15.jpg"
+            },
+            {
+                "file": "images/bts/16.jpg"
+            },
+            {
+                "file": "images/bts/17.jpg"
             }
         ]
     },
@@ -26,6 +74,48 @@
         "images": [
             {
                 "file": "images/sports/1.jpg"
+            },
+            {
+                "file": "images/sports/2.jpg"
+            },
+            {
+                "file": "images/sports/3.jpg"
+            },
+            {
+                "file": "images/sports/4.jpg"
+            },
+            {
+                "file": "images/sports/5.jpg"
+            },
+            {
+                "file": "images/sports/6.jpg"
+            },
+            {
+                "file": "images/sports/7.jpg"
+            },
+            {
+                "file": "images/sports/8.jpg"
+            },
+            {
+                "file": "images/sports/9.jpg"
+            },
+            {
+                "file": "images/sports/10.jpg"
+            },
+            {
+                "file": "images/sports/11.jpg"
+            },
+            {
+                "file": "images/sports/12.jpg"
+            },
+            {
+                "file": "images/sports/13.jpg"
+            },
+            {
+                "file": "images/sports/14.jpg"
+            },
+            {
+                "file": "images/sports/15.jpg"
             }
         ]
     },
@@ -65,6 +155,9 @@
             },
             {
                 "file": "images/landscape/5.JPG"
+            },
+            {
+                "file": "images/landscape/6.jpg"
             }
         ]
     },
@@ -80,6 +173,12 @@
             },
             {
                 "file": "images/nature/3.jpg"
+            },
+            {
+                "file": "images/nature/4.jpg"
+            },
+            {
+                "file": "images/nature/5.jpg"
             }
         ]
     },
