@@ -161,6 +161,9 @@
             },
             {
                 "file": "images/landscape/6.jpg"
+            },
+            {
+                "file": "images/landscape/7.jpg"
             }
         ]
     },
@@ -194,7 +197,13 @@
             },
             {
                 "file": "images/street/2.jpg"
-            } 
+            },
+            {
+                "file": "images/street/3.jpg"
+            },
+            {
+                "file": "images/street/4.jpg"
+            }
         ]
     },
     {
