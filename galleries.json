@@ -164,6 +164,9 @@
             },
             {
                 "file": "images/landscape/7.jpg"
+            },
+            {
+                "file": "images/landscape/8.jpg"
             }
         ]
     },
@@ -203,6 +206,9 @@
             },
             {
                 "file": "images/street/4.jpg"
+            },
+            {
+                "file": "images/street/5.jpg"
             }
         ]
     },
@@ -212,6 +218,12 @@
         "images": [
             {
                 "file": "images/fart/1.jpg"
+            },
+            {
+                "file": "images/fart/2.jpg"
+            },
+            {
+                "file": "images/fart/3.jpg"
             }
         ]
     },
@@ -227,6 +239,9 @@
             },
             {
                 "file": "images/pictorialesque/3.jpg"
+            },
+            {
+                "file": "images/pictorialesque/4.jpg"
             }
         ]
     }
