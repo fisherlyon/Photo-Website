@@ -27,6 +27,43 @@ main h1 {
     text-transform: uppercase;
 }
 
+#gallery-change {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 40px 20px 40px;
+}
+
+#gallery-change button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#prev-gallery {
+    text-align: left;
+}
+
+#next-gallery {
+    text-align: right;
+}
+
+#gallery-change .arrow {
+    margin-bottom: 20px;
+}
+
+#gallery-change button:hover {
+    font-weight: bolder;
+}
+
 #images {
     column-count: 3;
     column-gap: 60px;

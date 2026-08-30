@@ -2,6 +2,8 @@
     {
         "id": "portraiture",
         "title": "Portraiture",
+        "next-gallery": "bts",
+        "prev-gallery": "pictorialesque",
         "images": [
             {
                 "file": "images/portraiture/1.jpg"
@@ -17,6 +19,8 @@
     {
         "id": "bts",
         "title": "Behind The Scenes",
+        "next-gallery": "sports",
+        "prev-gallery": "portraiture",
         "images": [
             {
                 "file": "images/bts/1.jpg"
@@ -74,6 +78,8 @@
     {
         "id": "sports",
         "title": "Sports",
+        "next-gallery": "mx",
+        "prev-gallery": "bts",
         "images": [
             {
                 "file": "images/sports/1.jpg"
@@ -125,6 +131,8 @@
     {
         "id": "mx",
         "title": "Multiple Exposure",
+        "next-gallery": "landscape",
+        "prev-gallery": "sports",
         "images": [
             {
                 "file": "images/mx/1.jpg"
@@ -143,6 +151,8 @@
     {
         "id": "landscape",
         "title": "Landscape",
+        "next-gallery": "nature",
+        "prev-gallery": "mx",
         "images": [
             {
                 "file": "images/landscape/1.jpg"
@@ -173,6 +183,8 @@
     {
         "id": "nature",
         "title": "Nature",
+        "next-gallery": "street",
+        "prev-gallery": "landscape",
         "images": [
             {
                 "file": "images/nature/1.jpg"
@@ -194,6 +206,8 @@
     {
         "id": "street",
         "title": "Street",
+        "next-gallery": "fart",
+        "prev-gallery": "nature",
         "images": [
             {
                 "file": "images/street/1.jpg"
@@ -215,6 +229,8 @@
     {
         "id": "fart",
         "title": "Fine Art",
+        "next-gallery": "pictorialesque",
+        "prev-gallery": "street",
         "images": [
             {
                 "file": "images/fart/1.jpg"
@@ -230,6 +246,8 @@
     {
         "id": "pictorialesque",
         "title": "Pictorialesque",
+        "next-gallery": "portraiture",
+        "prev-gallery": "fart",
         "images": [
             {
                 "file": "images/pictorialesque/1.jpg"
