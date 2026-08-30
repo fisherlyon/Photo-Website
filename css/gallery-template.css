@@ -43,7 +43,7 @@ main h1 {
     background: none;
     border: none;
     font-family: inherit;
-    font-size: 50px;
+    font-size: 40px;
     cursor: pointer;
     text-transform: uppercase;
 }
@@ -57,7 +57,7 @@ main h1 {
 }
 
 #gallery-change .arrow {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 #gallery-change button:hover {
