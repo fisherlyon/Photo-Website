@@ -264,7 +264,7 @@
     {
         "id": "pictorialesque",
         "title": "Pictorialesque",
-        "next-gallery": "portraiture",
+        "next-gallery": "instant",
         "prev-gallery": "fart",
         "images": [
             {
@@ -278,6 +278,23 @@
             },
             {
                 "file": "images/pictorialesque/4.jpg"
+            }
+        ]
+    },
+    {
+        "id": "instant",
+        "title": "Instant",
+        "next-gallery": "portraiture",
+        "prev-gallery": "pictorialesque",
+        "images": [
+            {
+                "file": "images/instant/1.jpg"
+            },
+            {
+                "file": "images/instant/2.jpg"
+            },
+            {
+                "file": "images/instant/3.jpg"
             }
         ]
     }
